@@ -2,9 +2,9 @@
 ### Pathfinding function
 You can change the function by which the program finds the path, by changing the defined identifier in robot_functions.h (default is MATRREC).  
 **Pathfinding identifiers:**  
-PUREREC = pure recursive
-MATREC = matrix recursion
-ITERDP = iterative dynamic programming
+PUREREC = pure recursive  
+MATREC = matrix recursion  
+ITERDP = iterative dynamic programming  
 ### Calling the program
 The grid can be given either as a text file by running the program as: 
 ``` 
@@ -25,4 +25,4 @@ e.g.
 ```
 Path is: C(1,1)/1 --> .(1,2)/1 --> C(2,2)/2 --> C(3,2)/3 --> .(3,3)/3 --> C(3,4)/4 --> Picked up 4 coins
 ```    
-"*coin or empty*"("*coordinates*")/"*coins until that cell*"
+*coin or empty*__(__*coordinates*__)/__*coins until that cell*
