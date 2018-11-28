@@ -4,7 +4,8 @@ You can change the function by which the program finds the path, by changing the
 **Pathfinding identifiers:**  
 PUREREC = pure recursive  
 MATRREC = matrix recursion  
-ITERDP = iterative dynamic programming  </br>
+ITERDP = iterative dynamic programming  
+  
 *MATRREC only outputs number of coins collected, not the path*
 ### Calling the program
 The grid can be given either as a text file by running the program as: 
