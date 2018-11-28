@@ -1,4 +1,4 @@
-A C program that finds recursively the best path to collect maximum possible coins.
+## A C program that finds recursively the best path to collect maximum possible coins.
 ### Calling the program
 The grid can be given either as a text file by running the program as: 
 ``` 
