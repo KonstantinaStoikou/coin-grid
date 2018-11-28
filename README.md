@@ -1,5 +1,5 @@
 A C program that finds recursively the best path to collect maximum possible coins.
-## Calling the program
+### Calling the program
 The grid can be given either as a text file by running the program as: 
 ``` 
 ./robot < grid.txt
@@ -13,4 +13,6 @@ C..C
 .C..
 CC.C
 ```
-# The output of the program
+### Output 
+The program will output the found path and for each cell visited it will show if it had a cell or not, its coordinates and how many coins were collected until there, and finally the total number of coins collected.
+e.g. `Path is: C(1,1)/1 --> .(1,2)/1 --> C(2,2)/2 --> C(3,2)/3 --> .(3,3)/3 --> C(3,4)/4 --> Picked up 4 coins`
