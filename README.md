@@ -19,4 +19,4 @@ e.g.
 ```
 Path is: C(1,1)/1 --> .(1,2)/1 --> C(2,2)/2 --> C(3,2)/3 --> .(3,3)/3 --> C(3,4)/4 --> Picked up 4 coins
 ```    
-*"coin or empty"("coordinates")/"coins until that cell"*
+"*coin or empty*"("*coordinates*")/"*coins until that cell*"
