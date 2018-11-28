@@ -3,7 +3,7 @@
 You can change the function by which the program finds the path, by changing the defined identifier in robot_functions.h (default is MATRREC).  
 **Pathfinding identifiers:**  
 PUREREC = pure recursive  
-MATREC = matrix recursion  
+MATRREC = matrix recursion  
 ITERDP = iterative dynamic programming  
 ### Calling the program
 The grid can be given either as a text file by running the program as: 
