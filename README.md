@@ -6,16 +6,16 @@ PUREREC = pure recursive
 MATRREC = matrix recursion  
 ITERDP = iterative dynamic programming  
   
-*MATRREC only outputs number of coins collected, not the path*
+*PUREREC only outputs number of coins collected, not the path*
 ### Calling the program
 The grid can be given either as a text file by running the program as: 
 ``` 
-./robot < grid.txt
+$ ./robot < grid.txt
 ```
 or by giving the grid after calling the program. The size of the grid must first be defined 
 and then the grid must be given, by symbolizing C as cells with coins and . as empty cells:
 ``` 
-./robot < grid.txt
+$ ./robot < grid.txt
 3 4
 C..C
 .C..
